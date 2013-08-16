@@ -1,0 +1,231 @@
+body {
+    background-image:url(../imgs/corkboard4.png);
+    background-repeat:repeat;
+    height: 100%;
+}
+
+.pin-align {
+    position: relative;
+}
+
+.pin-in {
+    position:absolute;
+    top:-17px;
+    left:-10px;
+}
+
+.pin-out {
+    position:absolute;
+    top:-35px;
+    left:-25px;
+}
+
+.pin-hidden {
+    display: none;
+}
+
+.popover-title {
+    font-weight: bold;
+}
+
+.show-hand {
+    cursor: pointer;
+}
+
+.bootbox {
+    width: 330px;
+}
+
+.zip-search {
+    padding: 4px 8px;
+    margin-bottom: 0;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    font-weight: normal;
+    line-height: 1;
+    -webkit-border-radius: 0px, 5px, 5px, 0px;
+     -moz-border-radius: 0px, 5px, 5px, 0px;
+          border-radius: 0px, 5px, 5px, 0px;
+}
+
+.modal-main-col {
+    float: left;
+    overflow-x: hidden;
+    overflow-y: auto;
+    margin: 0px;
+    min-height: 20px;
+    padding-bottom: 7px;
+    width: 340px;
+}
+
+.modal-sidebar {
+    float: right;
+    padding-bottom: 7px;
+    width: 290px;
+    overflow: hidden;
+}
+
+textarea {
+    resize: vertical;
+    min-height: 30px;
+}
+
+.new-comment-input {
+    position: relative;
+    height: 100px;
+    color: rgb(57, 57, 57);
+    cursor: text;
+    width: 95%;
+}
+
+.new-comment-input:focus {
+    height: 100px;
+    background-color: rgb(255, 255, 255);
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(211, 211, 211) rgb(211, 211, 211) rgb(187, 187, 187);
+    -moz-border-top-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    border-image: none;
+    box-shadow: 0px 1px 3px rgb(211, 211, 211);
+}
+
+.modal-title {
+    font-size: 16px;
+    line-height: 1.25em;
+    font: 14px/18px "Helvetica Neue",Arial,Helvetica,sans-serif;
+    color: rgb(57,57,57);
+    min-height: 18px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.label-title {
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 190px;
+}
+
+#results_panel .card {
+	margin-bottom: 20px;
+    min-height: 20px;
+    padding: 9px 10px 2px 17px;
+}
+
+.custom-label-cube {
+    height: 30px;
+    padding: 1px 5px;
+    width: 24px;
+    -webkit-border-radius: 4px;
+     -moz-border-radius: 4px;
+          border-radius: 4px;
+}
+
+.mini-label-cube {
+    float: left;
+    height: 20px;
+    padding: 1px 5px;
+    width: 14px;
+    -webkit-border-radius: 3px;
+     -moz-border-radius: 3px;
+          border-radius: 3px;
+}
+
+.card-label {
+    display: block;
+    float: right;
+    margin-right: 4px;
+    height: 6px;
+    margin-top: -1px;
+    margin-bottom: 1px;
+    width: 50px;
+    -webkit-border-radius: 0px;
+     -moz-border-radius: 0px;
+          border-radius: 0px;
+}
+
+.green-label {
+    background-color: rgb(52,178,125);
+}
+
+.orange-label {
+    background-color: rgb(224,153,82);
+}
+
+.purple-label {
+    background-color: rgb(153,51,204);
+}
+
+.red-label {
+    background-color: rgb(203,77,77);
+}
+
+.blue-label {
+    background-color: rgb(77,119,203);
+}
+
+#allFilter {
+    #color: #ffffff;
+    #background-color: rgb(40,40,40);
+}
+
+#allFilter:hover {
+    margin-left: 10px;
+    color: #ffffff;
+    background-color: rgb(40,40,40);
+}
+
+#greenFilter {
+    color: #ffffff;
+    background-color: rgb(52,178,125);
+}
+
+#greenFilter:hover {
+    margin-left: 10px;
+    color: #ffffff;
+    background-color: rgb(52,178,125);
+}
+
+#orangeFilter {
+    color: #ffffff;
+    background-color: rgb(224,153,82);
+}
+
+#orangeFilter:hover {
+    margin-left: 10px;
+}
+
+#purpleFilter {
+    color: #ffffff;
+    background-color: rgb(153,51,204);
+}
+
+#purpleFilter:hover {
+    margin-left: 10px;
+}
+
+#redFilter {
+    color: #ffffff;
+    background-color: rgb(203,77,77);
+}
+
+#redFilter:hover {
+    margin-left: 10px;
+}
+
+#blueFilter {
+    color: #ffffff;
+    background-color: rgb(77,119,203);
+}
+
+#blueFilter:hover {
+    margin-left: 10px;
+    color: #ffffff;
+    background-color: rgb(77,119,203);
+}
+
+[draggable]:hover {
+	cursor: pointer;
+}
